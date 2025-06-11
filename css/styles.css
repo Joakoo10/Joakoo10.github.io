@@ -35,15 +35,7 @@ h1{
 
 
 
-.titulo{ /* este sirve de ejemplo*/
-    color:blue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-weight: 100;
-    text-align: center;
-    text-decoration: underline black;
 
-}
 
 .estilo_color{
     color:black;
@@ -141,20 +133,28 @@ grid-row-gap: 1px;
 
 .div3 { grid-area: 2 / 2 / 3 / 3; }
 
-.div3{
+.div3 img{
    width: 100%;
 }
 
 /*-----------------hover-----------------*/
 
 nav a:hover{ /*cambia de color el texto cuando pasa el mouse por arriba*/
-   color: cyan
+   color: blue
 }
 
 h1:hover{
-   transform: scale(0.8) translate(20px);
+   transform: scale(1.2) translate(1px);
 }
 
 nav a{
    color:black 
 }
+section h3{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.listnone{
+   list-style: none;
+}
+  
